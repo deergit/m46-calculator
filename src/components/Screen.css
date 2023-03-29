@@ -1,5 +1,5 @@
 .screen {
-    height: 100px;
+    height: 200px;
     width: 100%;
     margin-bottom: 10px;
     padding: 0 10px;
@@ -8,8 +8,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    color: white;
-    font-weight: bold;
     box-sizing: border-box;
-  }
-  
+    text-align: right;
+}
+
+#line2 {
+    font-weight: bold;
+}

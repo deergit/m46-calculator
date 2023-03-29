@@ -7,18 +7,17 @@ button {
     cursor: pointer;
     border-radius: 10px;
     outline: none;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #665c54;
-  }
-  
-  .equals {
+}
+
+.equals {
     grid-column: 3 / 5;
     background-color: #b3667b;
-  }
-  
-  .equals:hover {
+}
+
+.equals:hover {
     background-color: #d3869b;
-  }
-  
+}
