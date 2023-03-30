@@ -66,7 +66,7 @@ function App() {
     return (
         <div className="App">
             <Wrapper>
-                <Screen value1={calc.expr} value2={calc.res !== 0 ? toLocaleString(calc.res) : ""}/>
+                <Screen value1={calc.expr} value2={calc.res !== 0 ? toLocaleString(calc.res) : " "}/>
                 <ButtonBox>
                     {btnValues.flat().map((btn, i) => {
                         return (
